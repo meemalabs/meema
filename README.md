@@ -4,10 +4,10 @@ The easiest way to integrate Meema into your frontend in order to create a blazi
 
 ## 🐙 Features
 
-- <meema-img /> displays the most optimized image (AVIF or WebP) in compression & size, determined based on the user's request to allow (responsive images)
-- <meema-video /> plays an HLS (or DASH) ABR-encoded video because we all dislike buffering videos
-- <meema-media-manager /> render your own beautiful file and media manager with ease
-- <meema-file-upload /> easily upload your files
+- `<meema-img />` displays the most optimized image (AVIF or WebP) in compression & size, determined based on the user's request to allow (responsive images)
+- `<meema-video />` plays an HLS (or DASH) ABR-encoded video because we all dislike buffering videos
+- `<meema-media-manager />` render your own beautiful file and media manager with ease
+- `<meema-file-upload />` easily upload your files
 - Thin & minimal component library to interact with Meema's services
 
 ## 💡 Usage
