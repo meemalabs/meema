@@ -32,7 +32,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Meema PHP on GitHub](https://github.com/meemalabs/meema-elements/discussions)
+[Meema Elements on GitHub](https://github.com/meemalabs/meema-elements/discussions)
 
 For casual chit-chat with others using this package:
 
