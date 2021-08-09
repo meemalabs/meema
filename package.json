@@ -1,0 +1,75 @@
+{
+  "name": "meema-elements",
+  "version": "0.0.0",
+  "description": "The easiest way to manage & ensure your media is always displayed quickly at the highest quality possible.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-actions": "^6.4.0-alpha.28",
+    "@storybook/addon-essentials": "^6.4.0-alpha.28",
+    "@storybook/addon-links": "^6.4.0-alpha.28",
+    "@storybook/vue3": "^6.4.0-alpha.28",
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.15.1",
+    "postcss": "^8.3.6",
+    "prettier": "2.3.2",
+    "storybook-builder-vite": "^0.0.12",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-loader": "^16.5.0",
+    "vue-tsc": "^0.2.2"
+  },
+  "contributors": [
+    "Chris Breuer <chris@meema.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meemalabs/meema-elements.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meemalabs/meema-elements/issues"
+  },
+  "keywords": [
+    "avif",
+    "accessible",
+    "audio",
+    "customizable",
+    "dash",
+    "element",
+    "elements",
+    "extensible",
+    "file",
+    "framework-agnostic",
+    "hls",
+    "html5",
+    "image",
+    "lit-element",
+    "lit",
+    "management",
+    "media",
+    "meema",
+    "mp4",
+    "optimize",
+    "react",
+    "universal",
+    "vds",
+    "video",
+    "web-component",
+    "webp"
+  ]
+}
