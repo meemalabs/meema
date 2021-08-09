@@ -1,6 +1,6 @@
 # Meema Elements
 
-The most simple way to integrate Meema into your frontend in order to create a blazing-fast & powerful media delivery strategy.
+The easiest way to integrate Meema into your frontend in order to create a blazing-fast & powerful media delivery & management strategy.
 
 ## 🐙 Features
 
