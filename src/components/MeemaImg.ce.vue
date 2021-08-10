@@ -1,5 +1,9 @@
 <template>
-  <img :src="url" />
+  <div class="w-full h-12 bg-black" style="height: 60px">
+    <div ref="meema" class="w-1/2 h-12 bg-red-500" style="height: 60px">
+      <!-- <img :src="url" /> -->
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -14,6 +18,8 @@ export default defineComponent({
       required: true
       // TODO: add validation rule
     },
+
+    // TODO: blurhash, lazy, etc.
 
     width: {
       type: Number,
@@ -40,6 +46,10 @@ export default defineComponent({
     url() {
       return `https://dev-cdn.mee.ma/${this.src}?w=${this.width}`;
     }
+  },
+
+  mounted() {
+    console.log('this.$refs.meema.clientHeight', this.$refs.meema);
   }
 });
 </script>
