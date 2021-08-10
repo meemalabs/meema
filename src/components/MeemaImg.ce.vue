@@ -1,23 +1,51 @@
 <template>
-  <h1>{{ msg }}</h1>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <img :src="url" />
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "vue";
+import { ref, defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "MeemaImg",
+  name: 'MeemaImg',
+
   props: {
-    msg: {
+    src: {
       type: String,
-      required: true,
+      required: true
+      // TODO: add validation rule
     },
+
+    width: {
+      type: Number,
+      default: null
+    },
+
+    w: {
+      type: Number,
+      default: null
+    },
+
+    height: {
+      type: Number,
+      default: null
+    },
+
+    h: {
+      type: Number,
+      default: null
+    }
   },
+
   setup: () => {
     const count = ref(0);
     return { count };
   },
+
+  computed: {
+    // a computed getter
+    url() {
+      return `https://dev-cdn.mee.ma/${this.src}?w=${this.width}`;
+    }
+  }
 });
 </script>
