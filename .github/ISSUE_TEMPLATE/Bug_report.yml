@@ -6,15 +6,15 @@ body:
 - type: input
   attributes:
     label: Package version
-    description: "Please provide the full version of meema-client-php that you're experiencing the bug with."
+    description: "Please provide the full version of meema-elements that you're experiencing the bug with."
     placeholder: "v1.2.3"
   validations:
     required: true
 - type: input
   attributes:
-    label: PHP version
-    description: "Please provide the full version of PHP that you're experiencing the bug with."
-    placeholder: "v1.2.3"
+    label: Browser & OS
+    description: "Which browser and OS are you experiencing the issue with?"
+    placeholder: "Chrome 88 & macOS Monterey"
   validations:
     required: true
 - type: textarea
