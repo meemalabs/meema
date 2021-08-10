@@ -9,16 +9,32 @@ The easiest way to integrate Meema into your frontend in order to create a blazi
 - `<meema-audio />` plays an audio file
 - `<meema-media-manager />` render your own beautiful file and media manager with ease
 - `<meema-file-upload />` easily upload your files
-- Thin & minimal component library to interact with Meema's services
+- Minimal & fast component library to interact with Meema's services
 
 ## 💡 Usage
 
 wip
 
+## 🖥️ Browsers
+
+Meema Elements is built for the modern web and avoids bloated polyfills and outdated environments as much as possible. Currently, it supports all browsers that fully implement the [Custom Elements V1][caniuse-custom-el-v1].
+
+- Edge 79+
+- Firefox 63+
+- Chrome 67+
+- Safari 13.1+
+- Opera 64+
+- iOS Safari 13.7+
+- Android Browser 81+
+- Opera Mobile 59+
+- Chrome for Android 88+
+
+[caniuse-custom-el-v1]: https://caniuse.com/custom-elementsv1
+
 ## 🧪 Testing
 
 ```bash
-yarn
+yarn test
 ```
 
 ## 📈 Changelog
