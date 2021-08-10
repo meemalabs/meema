@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'MeemaImg',
@@ -36,13 +36,7 @@ export default defineComponent({
     }
   },
 
-  setup: () => {
-    const count = ref(0);
-    return { count };
-  },
-
   computed: {
-    // a computed getter
     url() {
       return `https://dev-cdn.mee.ma/${this.src}?w=${this.width}`;
     }
