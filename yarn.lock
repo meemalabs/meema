@@ -1570,16 +1570,16 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@^6.4.0-alpha.28":
-  version "6.4.0-alpha.28"
-  resolved "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-6.4.0-alpha.28.tgz"
-  integrity sha512-1M73zPkVhYzBHgDBmby0r2z+kJsZHwT7MDcYlaZeJKP9NCFTy2TdK2tc89TNx2vGxvmhQiwOZwo1sZbtYrC4lA==
+"@storybook/addon-links@^6.4.0-alpha.29":
+  version "6.4.0-alpha.29"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.4.0-alpha.29.tgz#c6dfc794cca46114592822033db2cb6a094f6e61"
+  integrity sha512-l+G1fc1v0zBl6SmCieFKfB70ilijHMa2Z3HeUsn/M1ZX7/Gejkpo/1SpiZ2sBhr0oRrmphs8M8VClrJ0AVYu8w==
   dependencies:
-    "@storybook/addons" "6.4.0-alpha.28"
-    "@storybook/client-logger" "6.4.0-alpha.28"
-    "@storybook/core-events" "6.4.0-alpha.28"
+    "@storybook/addons" "6.4.0-alpha.29"
+    "@storybook/client-logger" "6.4.0-alpha.29"
+    "@storybook/core-events" "6.4.0-alpha.29"
     "@storybook/csf" "0.0.1"
-    "@storybook/router" "6.4.0-alpha.28"
+    "@storybook/router" "6.4.0-alpha.29"
     "@types/qs" "^6.9.5"
     core-js "^3.8.2"
     global "^4.4.0"
