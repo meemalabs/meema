@@ -43,7 +43,7 @@ Please see our [releases](https://github.com/meemalabs/meema-elements/releases) 
 
 ## 💪🏼 Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## 🏝 Community
 
@@ -54,16 +54,6 @@ For help, discussion about best practices, or any other conversation that would 
 For casual chit-chat with others using this package:
 
 [Join the Meema Discord Server](https://discord.meema.io)
-
-## 🚨 Security
-
-Please review [our security policy](https://github.com/meemalabs/meema-elements/security/policy) on how to report security vulnerabilities.
-
-## 🙏🏼 Credits
-
-- [Chris Breuer](https://github.com/Chris1904)
-- [Folks at Meema](https://github.com/meemalabs)
-- [All Contributors](../../contributors)
 
 ## 📄 License
 

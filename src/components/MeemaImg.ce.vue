@@ -19,7 +19,7 @@ export default defineComponent({
       // TODO: add validation rule
     },
 
-    // TODO: blurhash, lazy, etc.
+    // TODO: blurhash, lazy, alt, etc.
 
     width: {
       type: Number,
