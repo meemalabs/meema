@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@storybook/addon-actions": "^6.4.0-alpha.29",
+    "@storybook/addon-actions": "^6.4.0-beta.14",
     "@storybook/addon-essentials": "^6.4.0-alpha.29",
     "@storybook/addon-links": "^6.4.0-alpha.29",
     "@storybook/vue3": "^6.4.0-alpha.29",
