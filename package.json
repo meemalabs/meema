@@ -32,6 +32,10 @@
     "vue-loader": "^16.5.0",
     "vue-tsc": "^0.34.6"
   },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": "^16.*"
+  },
   "contributors": [
     "Chris Breuer <chris@meema.io>"
   ],
