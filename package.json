@@ -14,7 +14,6 @@
     "vitebook:preview": "vitebook preview"
   },
   "dependencies": {
-    "@vue/eslint-config-prettier": "^7.0.0",
     "vue": "^3.2.32"
   },
   "devDependencies": {
@@ -29,11 +28,11 @@
     "@vitebook/vue": "^0.23.5",
     "@vitejs/plugin-vue": "^2.3.1",
     "@vue/compiler-sfc": "^3.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^10.0.0",
     "autoprefixer": "^10.3.1",
     "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^8.6.0",
     "postcss": "^8.3.6",
     "prettier": "^2.3.2",
