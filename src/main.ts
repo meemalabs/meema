@@ -1,11 +1,11 @@
 import { defineCustomElement } from 'vue';
-import MeemaImg from './components/MeemaImg.ce.vue';
+import ImgV2 from './components/ImgV2.ce.vue';
 import './styles/index.css';
 
-// console.log('MeemaImg.styles', MeemaImg.styles); // ["/* inlined css */"]
+// console.log('ImgV2.styles', ImgV2.styles); // ["/* inlined css */"]
 
 // convert into custom element constructor
-const MeemaImgCustomElement = defineCustomElement(MeemaImg);
+const ImgV2CustomElement = defineCustomElement(ImgV2);
 
 // export individual elements
-customElements.define('meema-img', MeemaImgCustomElement);
+customElements.define('img-v2', ImgV2CustomElement);

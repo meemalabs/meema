@@ -25,7 +25,7 @@ const url = computed(
 );
 
 onMounted(() => {
-  console.log('url', url);
+  console.log('url', url.value);
   console.log('props', props);
 });
 </script>
