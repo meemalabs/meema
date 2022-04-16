@@ -8,9 +8,13 @@ import './styles/index.css';
 // console.log('Img.styles', Img.styles); // ["/* inlined css */"]
 
 // convert into custom element constructor
-const ImgCustomElement = defineCustomElement(Img);
-const TableCustomElement = defineCustomElement(Table);
+const ImgV2CustomElement = defineCustomElement(Img);
+const TableV2CustomElement = defineCustomElement(Table);
 
 // export individual elements
-customElements.define('img-v2', ImgCustomElement);
-customElements.define('table-v2', TableCustomElement);
+// export { ImgV2CustomElement, TableV2CustomElement };
+
+// export function register() {
+customElements.define('img-v2', ImgV2CustomElement);
+customElements.define('table-v2', TableV2CustomElement);
+// }
