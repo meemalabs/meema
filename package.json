@@ -25,7 +25,7 @@
     "@vitebook/markdown-vue": "^0.23.5",
     "@vitebook/theme-default": "^0.23.5",
     "@vitebook/vue": "^0.23.5",
-    "@vitejs/plugin-vue": "^1.3.0",
+    "@vitejs/plugin-vue": "^2.3.1",
     "@vue/compiler-sfc": "^3.2.2",
     "autoprefixer": "^10.3.1",
     "babel-loader": "^8.2.2",
