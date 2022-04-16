@@ -8,5 +8,6 @@
     "esbenp.prettier-vscode",
     "johnsoncodehk.volar",
     "streetsidesoftware.code-spell-checker",
+    "fabiospampinato.vscode-terminals"
   ]
 }
