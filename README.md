@@ -7,9 +7,13 @@ The easiest way to integrate Meema into your frontend in order to create a blazi
 This cross-framework (React, Vue, Svelte, etc.) component library is compatible.
 
 - `<img-v2 />`
-  - renders the best optimized version of your image—in compression & size, determined based on the user's request
+  - renders the best version of your image—in compression/size, determined by the user's request
+  - automatically renders "responsive images"
+  - native AVIF & WebP support
 - `<video-v2 />`
   - advanced video player for an non-buffering, high-quality video delivery
+  - native HLS & DASH support
+  - beautifully-designed & modern video player
 - `<audio-v2 />`
   - advanced audio player for an optimized audio delivery
 - `<file-manager />`
@@ -20,6 +24,8 @@ This cross-framework (React, Vue, Svelte, etc.) component library is compatible.
   - quickly & simply develop a highly-configurable table UI without worrying about the backend
   - "facet filtering" & "table head sorting" natively built in
   - Meilisearch & Laravel Scout API compatible
+
+  Read more about these features in their respective [docs](https://meema.xyz/docs).
 
 ## 💡 Usage
 
