@@ -1,7 +1,7 @@
 {
   "name": "meema-elements",
   "version": "0.0.0",
-  "description": "The easiest way to manage & ensure your media is always displayed quickly at the highest quality possible.",
+  "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
