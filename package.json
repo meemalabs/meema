@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
     "@vitebook/client": "^0.23.5",
     "@vitebook/core": "^0.23.5",
     "@vitebook/markdown-vue": "^0.23.5",

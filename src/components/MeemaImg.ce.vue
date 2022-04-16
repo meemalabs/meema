@@ -11,23 +11,20 @@ import { computed, onMounted } from 'vue';
 
 interface Props {
   src: string;
-  width?: number | null;
-  w?: number | null;
-  height?: number | null;
-  h?: number | null;
+  width?: number;
+  w?: number;
+  height?: number;
+  h?: number;
   // blurhash, lazy, alt,
 }
 
-withDefaults(defineProps<Props>(), {
-  width: null,
-  w: null,
-  height: null,
-  h: null
-});
+const props = defineProps<Props>();
+
+const url = computed(
+  () => `https://dev-cdn.mee.ma/${props.src}?w=${props.width}`
+);
 
 onMounted(() => {
-  // console.log('$refs', this.$refs.meema);
+  console.log('url', url);
 });
-
-const url = computed(() => `https://dev-cdn.mee.ma/${src}?w=${width}`);
 </script>
