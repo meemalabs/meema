@@ -4,12 +4,14 @@ The easiest way to integrate Meema into your frontend in order to create a blazi
 
 ## 🐙 Features
 
-- `<meema-img />` displays the most optimized image (AVIF or WebP) in compression & size, determined based on the user's request to allow (responsive images)
-- `<meema-video />` plays an HLS (or DASH) ABR-encoded video because we all dislike buffering videos
-- `<meema-audio />` plays an audio file
-- `<meema-file-manager />` render your own beautiful file and file & media manager—with ease
-- `<meema-file-upload />` easily upload your files
-- Minimal & fast component library to interact with Meema's services
+This cross-framework (React, Vue, Svelte, etc.) component library is compatible.
+
+- `<img-v2 />` renders the best optimized version of your image—in compression & size, determined based on the user's request
+- `<video-v2 />` advanced video player for an non-buffering, high-quality video delivery
+- `<audio-v2 />` advanced audio player for an optimized audio delivery
+- `<table-v2 />` level-up your table game (Meilisearch/Laravel Scout API compatible)
+- `<file-manager />` render your own beautiful file & media management experience
+- `<file-upload />` easily upload your files without maintaining the backend, including a well-designed UI/UX
 
 ## 💡 Usage
 

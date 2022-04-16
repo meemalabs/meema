@@ -7,10 +7,22 @@
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "types": [
+      "vite/client"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
     "lib": [
       "esnext",
       "dom"
