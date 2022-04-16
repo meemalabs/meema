@@ -1,7 +1,5 @@
 <template>
-  <div ref="meema" class="h-12 w-1/2 bg-red-500" style="height: 60px">
-    <img :src="url" />
-  </div>
+  <img :src="url" />
 </template>
 
 <script setup lang="ts">
